@@ -1,0 +1,8 @@
+.bg1{
+  background-image: url(https://sxmfeed.files.wordpress.com/2017/10/tompetty-fi-1600x900-v1.jpg?w=940.jpg);
+ height: 100vh; 
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

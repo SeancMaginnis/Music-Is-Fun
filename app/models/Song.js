@@ -8,4 +8,21 @@ export default class Song {
         this.price = song.collectionPrice
         this.preview = song.previewUrl
     }
+    getTemplate() {
+        return `
+    <div class="card col-3">
+  <img class="card-img-top" src="${this.albumArt}" >
+  <div class="card-body">
+    <h5 class="card-title">"${this.title}"</h5>
+    <h6 class="card-text">"${this.artist}"</h6>
+    <p class="card-text">"${this.collection}"</p>
+    <audio controls class="w-100" src="${this.preview}">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+  </div>
+</div>
+    </div>`
+    }
 }
+
