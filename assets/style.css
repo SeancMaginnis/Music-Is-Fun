@@ -1,8 +1,17 @@
 .bg1{
-  background-image: url(https://sxmfeed.files.wordpress.com/2017/10/tompetty-fi-1600x900-v1.jpg?w=940.jpg);
+  background-image: url(http://mercercognitivepsychology.pbworks.com/f/1384897684/colorful_note.jpg);
  height: 100vh; 
  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.bg2{
+  background-color: rgba(128, 128, 128, 0.431)
+}  
+
+h4{
+
+  text-shadow: 1px 1px black
 }
